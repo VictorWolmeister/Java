@@ -1,3 +1,5 @@
+//Created by Victor Wolmeister - 25/04/2015
+//1.00
 import java.util.Scanner;
 import java.util.Random;
 public class o
