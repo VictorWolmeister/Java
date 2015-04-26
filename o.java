@@ -1,5 +1,5 @@
 //Created by Victor Wolmeister - 25/04/2015
-//1.00
+//1.01
 import java.util.Scanner;
 import java.util.Random;
 public class o
@@ -144,7 +144,7 @@ public class o
       else //Se for virgula
       {
         //Se o primeiro caracter for diferente de 0~9
-        if(!(cmd.substring(0,1).equals("0") || cmd.substring(0,1).equals("1") || cmd.substring(0,1).equals("2") || cmd.substring(0,1).equals("3") || cmd.substring(0,1).equals("4") || cmd.substring(0,1).equals("5") || cmd.substring(0,1).equals("6") || cmd.substring(0,1).equals("7") || cmd.substring(0,1).equals("8") || cmd.substring(0,1).equals("9")))
+        if(!(cmd.substring(0,1).equals("1") || cmd.substring(0,1).equals("2") || cmd.substring(0,1).equals("3")))
         {
           System.out.println("Erro 02: Coordenada inválida, insira novamente");
           ok=false;
@@ -152,7 +152,7 @@ public class o
         else // se for 0~9
         {
           //Verifiac se o terceiro caracter é um numero de 0~9
-          if((cmd.substring(2,3).equals("0") || cmd.substring(2,3).equals("1") || cmd.substring(2,3).equals("2") || cmd.substring(2,3).equals("3") || cmd.substring(2,3).equals("4") || cmd.substring(2,3).equals("5") || cmd.substring(2,3).equals("6") || cmd.substring(2,3).equals("7") || cmd.substring(2,3).equals("8") || cmd.substring(2,3).equals("9")))
+          if((cmd.substring(2,3).equals("1") || cmd.substring(2,3).equals("2") || cmd.substring(2,3).equals("3")))
           {
             for(int i=0;i<9;i++) //Verifica se a coordenada ja foi utilizada anteriormente
             {
