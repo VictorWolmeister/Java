@@ -1,0 +1,11 @@
+Changelog 1.02:
+-deletada variaveis char P1,P2
+-criada variaveis globais string P1,P2
+-criado procedimento getNick()
+-system.out.print do procedimendo melhorD() alterado para o plural
+-criado procedimento scoreMatch()
+-criada varivel int Starter que decidira quem começaram a partida
+-criado procedimento randomStart()
+-criada função whoisNow()
+-criado procedimento start()
+-criado procedimento winner()
