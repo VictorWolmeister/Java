@@ -1,5 +1,9 @@
-touch /etc/persistent/ct
-/bin/sed -ir '/radio.1.countrycode/ c radio.1.countrycode=511' /tmp/system.cfg
-/bin/sed -ir '/radio.countrycode/ c radio.countrycode=511' /tmp/system.cfg
-save
-reboot
+ccode=$(cat /tmp/system.cfg)
+case $ccode in
+*countrycode=511*)
+	echo "ja esta em ct"
+;;
+*)
+	echo "nao esta em ct"
+;;
+esac
