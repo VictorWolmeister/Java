@@ -7,4 +7,3 @@ case $ccode in
 	echo "nao esta em ct"
 ;;
 esac
-echo "ok"
