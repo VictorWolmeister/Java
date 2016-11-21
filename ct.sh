@@ -4,6 +4,6 @@ case $ccode in
 	echo "ja esta em ct"
 ;;
 *)
-	echo "nao esta em ct dasdas"
+	echo "nao esta em ct teste pull"
 ;;
 esac
